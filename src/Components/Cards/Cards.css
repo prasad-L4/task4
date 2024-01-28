@@ -9,6 +9,7 @@ main img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 .card {
     width: 300px;
@@ -20,7 +21,10 @@ main img{
     margin: 16px;
     background-color: #fff;
     transition: transform 0.3s ease-in-out;
-    
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;  
   }
   
   .card:hover {
@@ -36,15 +40,26 @@ main img{
   }
   
   .card-content {
-    padding: 16px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+  .card-price{
+    font-size: 19px;
+    margin-top: 5px;
   }
   
   .card-title {
-    font-size: 1.5rem;
-    margin-bottom: 8px;
+    font-size: 20px;
+   
+    color: #555;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .card-text {
-    font-size: 1rem;
+    font-size: 20px;
     color: #555;
+    margin-top: 5px;
+    
   }

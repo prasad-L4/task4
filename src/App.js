@@ -1,6 +1,6 @@
 
 import './App.css';
-import Header from './Components/Header/Header';
+import Header from './Components/Cards/Cards';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {
